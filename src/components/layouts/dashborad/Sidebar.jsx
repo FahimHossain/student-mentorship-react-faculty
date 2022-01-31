@@ -13,7 +13,7 @@ export default function Sidebar() {
                     <div className="sidebar-brand-icon rotate-n-15">
                         <img src={logo} style={{ width: "50px", height: "50px", border: "3px solid white", borderRadius: "50%" }} alt="" />
                     </div>
-                    <div className="sidebar-brand-text mx-3"><sup>Dept. Panel</sup></div>
+                    <div className="sidebar-brand-text mx-3"><sup>Faculty Panel</sup></div>
                 </a>
                 {/* <!-- Divider --> */}
                 <hr className="sidebar-divider my-0" />
@@ -31,12 +31,12 @@ export default function Sidebar() {
                     Options
                 </div>
 
-                <li className="nav-item ">
+                {/* <li className="nav-item ">
                     <NavLink exact activeClassName="active" className="nav-link" to={URL.SKILL_MANAGEMENT}>
                         <i className="fas fa-fw fa-award"></i>
                         <span>Skill Management</span>
                     </NavLink>
-                </li>
+                </li> */}
 
                 <li className="nav-item ">
                     <NavLink exact activeClassName="active" className="nav-link" to={URL.TASK_MANAGEMENT}>
@@ -45,12 +45,12 @@ export default function Sidebar() {
                     </NavLink>
                 </li>
 
-                <li className="nav-item ">
+                {/* <li className="nav-item ">
                     <NavLink exact activeClassName="active" className="nav-link" to={URL.EVENT_MANAGEMENT}>
                         <i className="fas fa-fw fa-award"></i>
                         <span>Event Management</span>
                     </NavLink>
-                </li>
+                </li> */}
                 <hr className="sidebar-divider d-none d-md-block" />
 
                 <li className="nav-item ">
